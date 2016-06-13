@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "appleicons_thin";
+  src: local("text"), url("../font/appleicons_thin.woff") format("woff"), url("../font/appleicons_thin.eot") format("eot"), url("../font/appleicons_thin.ttf") format("ttf"), url("../font/appleicons_thin.svg") format("svg");
+}
+
+@font-face {
+  font-family: "HanHei-TC-semibold";
+  src: local("semibold"), url("../font/HanHei-TC-semibold.woff") format("woff"), url("../font/HanHei-TC-semibold.eot") format("eot"), url("../font/HanHei-TC-semibold.ttf") format("ttf"), url("../font/HanHei-TC-semibold.svg") format("svg");
+}
+
+@font-face {
+  font-family: "HanHei-TC-text";
+  src: local("thin"), url("../font/HanHei-TC-text.woff") format("woff"), url("../font/HanHei-TC-text.eot") format("eot"), url("../font/HanHei-TC-text.ttf") format("ttf"), url("../font/HanHei-TC-text.svg") format("svg");
+}
+
+@font-face {
+  font-family: "HanHei-TC-thin";
+  src: local("extrathin"), url("../font/HanHei-TC-thin.woff") format("woff"), url("../font/HanHei-TC-thin.eot") format("eot"), url("../font/HanHei-TC-thin.ttf") format("ttf"), url("../font/HanHei-TC-thin.svg") format("svg");
+}
+@font-face {
+  font-family: "myriad-set-pro_semibold";
+  src: local("extrathin"), url("../font/myriad-set-pro_semibold.woff") format("woff"), url("../font/myriad-set-pro_semibold.eot") format("eot"), url("../font/myriad-set-pro_semibold.ttf") format("ttf"), url("../font/myriad-set-pro_semibold.svg") format("svg");
+}
+@font-face {
+  font-family: "myriad-set-pro_text";
+  src: local("extrathin"), url("../font/myriad-set-pro_text.woff") format("woff"), url("../font/myriad-set-pro_text.eot") format("eot"), url("../font/myriad-set-pro_text.ttf") format("ttf"), url("../font/myriad-set-pro_text.svg") format("svg");
+}
+    body{
+    	font-family:"楷体";
+    }
+    ul,li{
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    }
+    .box{
+    	border:1px solid #542134;
+    	width: 800px;
+    	height: 600px;
+    	position: absolute;
+		margin: auto;
+		top:0;
+		left:0;
+		right: 0;
+		bottom: 0;
+		background:url(../image/bei6.jpg) repeat 0px 0px;
+    }
+    .zuo{
+    	width: 150px;
+    	height: 500px;
+    	margin:50px 0px 50px 40px;
+    	float: left;
+    	border:1px solid #ccc;
+    	position: relative;
+    }
+    .set{
+    	padding: 30px 10px;
+    }
+    .set li{
+    	display: inline-block;
+    	margin-left: 25px;
+    	margin-bottom: 10px;
+    	padding: 5px 20px;
+    	border:1px solid black;
+    	border-radius:5%;
+    	text-align: center;
+    }
+    #u{
+    	font-size: 20px;
+    	border:none;
+    	padding: 0px 30px;
+    }
+    .time{
+    	margin-top: 100px;
+    }
+	.sence{
+		position: absolute;
+		right: 0;
+		top:0;
+		width:500px;
+		height: 500px;
+		margin:50px;
+	}
+	.tip{
+		background:url(../image/hu2.jpg) repeat;
+	}
+	.block{
+		float: left;
+		width:44px;
+		height:44px;
+		margin-left: 3px;
+		margin-bottom: 3px;
+		text-align: center;
+		line-height: 44px;
+		font-size: 36px;
+		color: green;
+		border:1px solid #ccc;
+        
+	}
+	.biaoji{
+		background:url(../image/long4.jpg) repeat;
+	}
+	.yin{
+		width: 500px;
+		height: 500px;
+		position: absolute;
+		top:0;
+		left:208px;
+		z-index: 20;
+		background:url(../image/hu1.jpg) repeat;
+        color:black;
+        font-size: 32px;
+        text-align: center;
+        line-height: 900px;
+	}
+	.shi{
+		padding: 20px 10px;
+
+	}
+	.shi span{
+		display:block;
+		text-align: center;
+	}
+	#gui{
+		margin-left: 25px;
+		width: 90px;
+		height: 90px;
+		background: url(../image/shijian.jpg) no-repeat 0px 0px;
+	}
+	.jian{
+		padding: 20px 10px;
+	}
+	.jian span{
+		display:block;
+		text-align: center;
+		padding: 10px 15px;
+	}
+	#ji{
+		width: 75px;
+		height: 30px;
+	}
